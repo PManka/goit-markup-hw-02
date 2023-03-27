@@ -1,1 +1,16 @@
-Najtrudniejszym elementem zadania domowego 2 było skonfigurowanie tego jebanego githuba
+- plik css powinien byc w folderze /css
+  --DONE
+- wiadomosci w commitach pisz po angielsku i pamietaj zeby one mowiły mniej wiecej co w danym komicie zrobiłęs
+  --OK
+- złe wielkosci czcionek, przejrzyj prosze jeszcze raz wszystkie i sprawdz czy wartosci czionek zgadzaja sie z figmą. Zwróc tez uwage na letter-spacing bo to wazna wartosc
+  --dodałem wielkość fontu dla nagłówka, więcej grzechów nie pamiętam
+- do buttona daj padding zeby wygladał tak jak w figmie
+  --DONE
+- raczej jezeli chodzi o menu to nie chcemy zeby strone otwierało w nowej karcie
+  --DONE
+- na stronie potfolio uzywajac menu nie moge wrocic do strony "agencja" czyli naszej strony głównej
+  --DONE
+- buttony na stronie porfiolio to samo co w headerze, dodaj padding ale tez usun border
+  --DONE
+- jezeli chodzi o nazwe zmiennej to jak nazwa wskazuje mozliwe ze kiedys ich wartosci sie zmienia i teraz pytanie co jezeli zmienimy --brand-color-blue na kolor czerwony. lepiej pisac np --color-font-primary albo cos takiego
+  --DONE
