@@ -1,10 +1,10 @@
 :root {
   --background-page-color: #ffffff;
-  --brand-color-blue: #2196f3;
+  --brand-color-contrast-color: #2196f3;
   --brand-color-background: #2f303a;
-  --brand-color-black: #000000;
-  --brand-color-grey: #e5e5e5;
-  --brand-color-white: #ffffff;
+  --brand-color-dark: #000000;
+  --brand-color-dirty: #e5e5e5;
+  --brand-color-bright: #ffffff;
   --brand-color-contact: #757575;
   --brand-color-text: #212121;
   --brand-color-our-team: #f5f4fa;
@@ -20,13 +20,17 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--brand-color-bright);
+  background-color: var(--brand-color-background);
+  text-align: center;
 }
 header {
-  background-color: var(--brand-color-white);
+  background-color: var(--brand-color-bright);
   font-weight: 500;
-  color: #212121;
+  color: var(--brand-color-text);
+  font-size: 14px;
+  line-height: 1.17;
+  align-items: center;
 }
 .about-us {
   background-color: var(--background-page-color);
@@ -44,12 +48,18 @@ header {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--brand-color-blue);
-  color: #ffffff;
+  background-color: var(--brand-color-contrast-color);
+  color: var(--brand-color-bright);
   cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
+  border: none;
+  border-radius: 4px;
 }
 .btn-portfolio {
-  background: #f5f4fa;
+  background: var(--brand-color-our-team);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -58,11 +68,16 @@ header {
   letter-spacing: 0.03em;
   color: var(--brand-color-text);
   cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: none;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  background: var(--brand-color-blue);
-  color: var(--brand-color-white);
+  background: var(--brand-color-contrast-color);
+  color: var(--brand-color-bright);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -77,83 +92,79 @@ a {
   font-weight: 500;
 }
 a:hover {
-  color: var(--brand-color-blue);
+  color: var(--brand-color-contrast-color);
   text-decoration: none;
 }
 a:focus {
-  color: var(--brand-color-blue);
+  color: var(--brand-color-contrast-color);
   text-decoration: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--brand-color-contrast-color);
   text-decoration: none;
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .logo-studio-top {
-  color: #000000;
+  color: var(--brand-color-dark);
   text-decoration: none;
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .logo-studio-bottom {
-  color: var(--brand-color-white);
+  color: var(--brand-color-bright);
   text-decoration: none;
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 h3 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  color: var(--brand-color-text);
 }
 .p-h3 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--brand-color-description);
 }
 h2 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--brand-color-text);
 }
 .team-member {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--brand-color-text);
 }
 .team-function {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
-  color: #757575;
+  color: var(--brand-color-description);
 }
 footer {
   background-color: var(--brand-color-background);
@@ -161,7 +172,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--brand-color-bright);
 }
 .footer-contact {
   font-weight: 400;
