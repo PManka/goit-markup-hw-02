@@ -14,11 +14,13 @@ body {
   font-family: "roboto", sans-serif;
   color: var(--brand-color-text);
   background-color: var(--background-page-color);
+  letter-spacing: 0.03em;
 }
 .hero {
   color: var(--brand-color-bright);
   background-color: var(--brand-color-background);
   text-align: center;
+  letter-spacing: 0.06em;
 }
 h1 {
   font-weight: 900;
@@ -27,6 +29,7 @@ h1 {
   color: var(--brand-color-bright);
   background-color: var(--brand-color-background);
   text-align: center;
+  letter-spacing: 0.06em;
 }
 header {
   background-color: var(--brand-color-bright);
@@ -35,6 +38,7 @@ header {
   font-size: 14px;
   line-height: 1.17;
   align-items: center;
+  letter-spacing: 0.02em;
 }
 .about-us {
   background-color: var(--background-page-color);
@@ -162,6 +166,7 @@ h2 {
   font-size: 16px;
   line-height: 1.19;
   color: var(--brand-color-text);
+  letter-spacing: 0.03em;
 }
 .team-function {
   font-style: normal;
@@ -169,6 +174,7 @@ h2 {
   font-size: 16px;
   line-height: 1.19;
   color: var(--brand-color-description);
+  letter-spacing: 0.03em;
 }
 footer {
   background-color: var(--brand-color-background);
